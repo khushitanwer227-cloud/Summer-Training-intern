@@ -2,21 +2,28 @@
 
 # tools Installed
 -visual Studio code (vs code) 
+
 -Git
+
  Useful broswer extensions: 
+
 -Live Server
+
 -prettier
 
 # NOTES
 
 # Setup & Configuration
 git config --global user.name "Your Name": Sets your commit author name.
+
 git config --global user.email "your@email.com": Sets your commit author email.
+
 git config --list: Displays all configured settings
 
 # Starting a Project
 
 git init: Creates a hidden .git folder to start tracking the current directory.
+
 git clone <url>: Downloads an entire remote project to your local machine
 
 # Saving Changes
@@ -24,9 +31,13 @@ git clone <url>: Downloads an entire remote project to your local machine
 Manage files through the working directory, staging area, and local commit history
 
 git status: Lists tracked, untracked, modified, and staged files.
+
 git status -s: Displays status information in a compact, short format.
+
 git add <file>: Stages a specific file for the next snapshot.
+
 git add .: Stages all new, modified, and deleted files in the directory.
+
 git commit -m "message": Permanently saves your staged snapshot with a summary.
 git commit -am "message": Stages all tracked files and commits them in one step.
 
@@ -34,10 +45,15 @@ git commit -am "message": Stages all tracked files and commits them in one step.
 Isolate features and safely combine distinct lines of development.
 
 git branch: Lists all local branches in your current repository.
+
 git branch <branch-name>: Creates a new parallel branch without switching to it.
+
 git switch <branch-name>: Moves your working environment to a specified branch.
+
 git switch -c <branch-name>: Creates a brand-new branch and immediately switches to it.
+
 git merge <branch-name>: Integrates specified branch history into your current branch.
+
 git branch -d <branch-name>: Deletes a fully merged local branch.
 
 # Sharing & Syncing
